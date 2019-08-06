@@ -19,10 +19,10 @@ const {
   
   module.exports = override(
     fixBabelImports("import", {
-      libraryName: "antd", libraryDirectory: "es", style: false // change importing css to less
+      libraryName: "antd", libraryDirectory: "es", style: true
     }),
     addLessLoader({
       javascriptEnabled: true,
-    //   modifyVars: { "@primary-color": "#1DA57A" }
+      // modifyVars: { "@primary-color": "#1DA57A" }
     })
   );

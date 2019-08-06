@@ -1,9 +1,17 @@
-import React from 'react';
-
-function App() {
-  return (
-    <h1>app page</h1>
-  )
+import React, { Component } from 'react';
+import RouterIndex from "./router/index";
+import MainHeader from "./view/main-header";
+import MainFooter from "./view/main-footer";
+import "./view/index.css"
+class App extends Component {
+  render() {
+    return (
+      <div className="pageWrap">
+        <MainHeader></MainHeader>
+        <main className="main"> main </main>
+        <MainFooter></MainFooter>
+      </div>)
+  }
 }
 
 export default App;

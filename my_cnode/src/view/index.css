@@ -1,0 +1,54 @@
+.pageWrap {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+} 
+
+.wrap {
+    max-width: 980px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#logo {
+    color: #fff;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.headerDivider {
+    height: 44px;
+    float: left;
+    margin: 10px auto;
+}
+
+#nav {
+    float: left;
+    background: none;
+    border: none;
+    margin-left: 30px;
+    line-height: 62px;
+}
+
+#nav a {
+    color: #fff;
+}
+
+#nav a:hover {
+    color: #1890ff;
+}
+
+#nav .ant-menu-item-selected a {
+    color: #1890ff;
+}
+
+.xsNav {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: auto;
+}
+
+.main {
+    flex: 1;
+}

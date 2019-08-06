@@ -11,11 +11,17 @@ class RouterIndex extends Component {
     render() {
         return (
             <Switch>
-                <Route path="/" exact render={()=>{
+                <Route path="/" exact render={()=>(
                     <Redirect to="/index" />
-                }} />
-                <Route path="/index" component={} />
+        )} />
+                <Route path="/index" component={Index} />
+                <Route path="/book" component={Book} />
+                <Route path="/about" component={About} />
+                <Route path="/user" component={User} />
+                <Route path="/detail" component={Details} />
             </Switch>
-        )
+        ) 
     }
 }
+
+export default RouterIndex;
