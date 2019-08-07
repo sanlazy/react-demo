@@ -52,3 +52,48 @@
 .main {
     flex: 1;
 }
+
+.main .wrap {
+    border: 1px solid #ccc;
+    border-top: none;
+    overflow: hidden;
+}
+
+.indexSider {
+    boder-right: 1p solid #ccc;
+    padding-bottom: 9999px;
+    margin-bottom: -9999px;
+}
+
+#indexNav {
+    border-right: none;
+}
+
+#indexNav li {
+    text-align: center;
+    border-right: 3px solid rgba(0, 0, 0, 0);
+}
+
+#indexNav li:hover, #indexNav .ant-menu-item-selected {
+    border-color: #1890ff;
+    background-color: #e6f7ff;
+}
+
+#indexXsNav {
+    display: flex;
+}
+
+#indexXsNav li {
+    flex: 1;
+    text-align: center
+}
+
+.indexList {
+    border-left: 1px solid #ccc;
+    padding: 0 20px 0;
+}
+
+.indexList p {
+    margin: 0;
+}
+

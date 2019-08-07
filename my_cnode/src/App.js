@@ -8,7 +8,7 @@ class App extends Component {
     return (
       <div className="pageWrap">
         <MainHeader></MainHeader>
-        <main className="main"> main </main>
+        <main className="main"><RouterIndex /></main>
         <MainFooter></MainFooter>
       </div>)
   }
